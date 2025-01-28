@@ -1,0 +1,27 @@
+# Exclude biological sequence files
+*.fasta
+*.fa
+*.fastq
+*.fq
+*.bed
+*.vcf
+*.bam
+*.sam
+*.bai
+*.gff
+*.gff3
+*.gtf
+
+# Exclude compressed sequence files
+*.gz
+*.bz2
+*.zip
+*.tar
+*.7z
+
+# Exclude large intermediate or output files from bioinformatics tools
+*.log
+*.out
+*.err
+*.tmp
+*.idx
